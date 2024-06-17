@@ -181,16 +181,14 @@ const Comingsoon = () => {
 
           <div className="hidden lg:block">
             <div className="flex gap-5 fixed bottom-9 lg:right-16">
-              <img src={instagram} className="" alt="Instagram"></img>
-              <img src={linkedIn} className="" alt="LinkedIn"></img>
-              <img src={twitter} className="" alt="Twitter"></img>
+              <a href="https://www.instagram.com/tnenntstore?igsh=MXZoeDQ5NXVxdjJqYg==" target="blank"><img src={instagram} className="" alt="Instagram"></img></a>
+              <a href="https://x.com/tnenntstore?s=09" target="blank"><img src={twitter} className="" alt="Twitter"></img></a>
             </div>
           </div>
 
           <div className="flex justify-center gap-5 fixed bottom-9 lg:hidden left-1/2 transform -translate-x-1/2">
-            <img src={instagram} className="" alt="Instagram"></img>
-            <img src={linkedIn} className="" alt="LinkedIn"></img>
-            <img src={twitter} className="" alt="Twitter"></img>
+          <a href="https://www.instagram.com/tnenntstore?igsh=MXZoeDQ5NXVxdjJqYg==" target="blank"><img src={instagram} className="" alt="Instagram"></img></a>
+            <a href="https://x.com/tnenntstore?s=09" target="blank"><img src={twitter} className="" alt="Twitter"></img></a>
           </div>
         </div>
       </div>
