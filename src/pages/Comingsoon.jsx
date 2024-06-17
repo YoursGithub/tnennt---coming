@@ -3,7 +3,7 @@ import instagram from "../images/instagram (4).png";
 import linkedIn from "../images/linkedin (2).png";
 import twitter from "../images/twitter.png";
 import Contact from "../images/menu icon.png";
-import banners from '../images/Group 34.svg';
+import banners from '../images/Group 34.webp';
 import banner2 from "../images/Frame1.svg";
 import Tnennt from "../images/TNENNT.svg";
 import AnimatedCounter from "./Animatedcounter.jsx"
