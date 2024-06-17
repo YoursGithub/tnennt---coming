@@ -93,14 +93,14 @@ const Comingsoon = () => {
           style={{
             position: "absolute",
             top: 200,
-            left: 40,
+            left: 100,
             right: 0,
             bottom: 0,
             zIndex: -1,
             backgroundImage: `url(${banner2})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            minHeight: "60vh",
+            minHeight: "50vh",
             minWidth: 0,
           }}
         ></div>
