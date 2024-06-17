@@ -16,7 +16,7 @@ const Countdown = () => {
   useEffect(() => {
     const countdownInterval = setInterval(() => {
       setDaysRemaining((prevDays) => prevDays - 1);
-    }, 24 * 60 * 60 * 1000); // Update every 24 hours
+    }, 24 * 60 * 60 * 1000);
 
     return () => {
       clearInterval(countdownInterval);
@@ -27,14 +27,14 @@ const Countdown = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsDesktop(window.innerWidth > 768); // Adjust breakpoint as needed
+      setIsDesktop(window.innerWidth > 768);
     };
 
-    handleResize(); // Check initial size on load
-    window.addEventListener("resize", handleResize); // Add listener for resize
+    handleResize();
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize); // Clean up
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -66,27 +66,27 @@ const Comingsoon = () => {
       ></div>
 
       <div style={{ position: "relative" }} className="lg:hidden">
-      <marquee
-  behavior="scroll"
-  direction="left"
-  style={{
-    backgroundSize: "contain",
-    position: "absolute",
-    top: 300,
-    left: 0,
-    right: 0,
-    width: "100%", // Ensure it spans the entire width
-    display: "flex",
-    justifyContent: "flex-start", // Adjust alignment as needed
-    alignItems: "center", // Center vertically
-  }}
->
-  <img
-    src={Tnennt}
-    alt="Tennent Logo"
-    style={{ width: "900px", maxWidth: "200%", height: "auto" }} // Adjust width here
-  />
-</marquee>
+        <marquee
+          behavior="scroll"
+          direction="left"
+          style={{
+            backgroundSize: "contain",
+            position: "absolute",
+            top: 300,
+            left: 0,
+            right: 0,
+            width: "100%",
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+          }}
+        >
+          <img
+            src={Tnennt}
+            alt="Tennent Logo"
+            style={{ width: "900px", maxWidth: "200%", height: "auto" }}
+          />
+        </marquee>
 
         <div
           className="comingsoon-container lg:m-5 lg:hidden"
@@ -121,28 +121,28 @@ const Comingsoon = () => {
           <br /> NEARBY STORE AT YOUR <br />
           FINGERTIPS
         </h1>
-        <p className="mt-3 text-[#444444]">Clothing, Electronics, Accessories, Books & More</p>
+        <p className="mt-3 text-[#444444]">
+          Clothing, Electronics, Accessories, Books & More
+        </p>
       </div>
 
       <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden lg:mt-36 mt-64 ml-[25vw]">
-  <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer">
-    Coming Soon...
-  </button>
-  <Countdown />
-</div>
-
+        <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer">
+          Coming Soon...
+        </button>
+        <Countdown />
+      </div>
 
       <div className="lg:hidden fixed top-1/2 left-1/2 transform mt-44 -translate-x-1/2 -translate-y-1/2">
-  <div className="flex flex-col items-center justify-center">
-    <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer mb-4">
-      Coming Soon...
-    </button>
-    <div className="flex flex-col items-center justify-center mt-[-10px]">
-      <Countdown />
-    </div>
-  </div>
-</div>
-
+        <div className="flex flex-col items-center justify-center">
+          <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer mb-4">
+            Coming Soon...
+          </button>
+          <div className="flex flex-col items-center justify-center mt-[-10px]">
+            <Countdown />
+          </div>
+        </div>
+      </div>
 
       <div className="flex">
         <div className="fixed bottom-0 left-10 w-full py-4 px-6 bg-white hidden lg:block">
@@ -170,9 +170,7 @@ const Comingsoon = () => {
 
           <div className="fixed lg:hidden inset-x-0 bottom-3 py-4 px-6 flex justify-center">
             <div className="mt-[-90px] py-2 px-4 rounded-lg ">
-              <h3 className="text-center">
-                Follow on socials to stay updated
-              </h3>
+              <h3 className="text-center">Follow on socials to stay updated</h3>
             </div>
           </div>
 
