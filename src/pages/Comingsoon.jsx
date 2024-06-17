@@ -3,9 +3,10 @@ import instagram from "../images/instagram (4).png";
 import linkedIn from "../images/linkedin (2).png";
 import twitter from "../images/twitter.png";
 import Contact from "../images/menu icon.png";
-import banners from "../images/Group 1.svg";
+import banners from '../images/Group 34.webp';
 import banner2 from "../images/Frame1.svg";
 import Tnennt from "../images/TNENNT.svg";
+import AnimatedCounter from "./Animatedcounter.jsx"
 import { useState, useEffect } from "react";
 import "animate.css";
 import "./style.css";
@@ -44,7 +45,6 @@ const Countdown = () => {
     </p>
   );
 };
-
 
 const Comingsoon = () => {
   return (
@@ -108,9 +108,9 @@ const Comingsoon = () => {
       </div>
 
       <div className="mt-7 relative cursor-pointer flex justify-end right-6">
-        <div className="relative">
+        <div className="relative animate__animated animate__fadeIn animate__slow">
           <img src={Contact} alt="" className="w-44" />
-          <p className="absolute top-3 left-0 right-14 text-center text-[16px] text-white">
+          <p className=" absolute top-3 left-0 right-14 text-center text-[16px] text-white">
             Contact us
           </p>
         </div>
@@ -127,7 +127,7 @@ const Comingsoon = () => {
         </p>
       </div>
 
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden lg:mt-36 mt-64 ml-[25vw]">
+      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden lg:mt-28 mt-64 ml-[18vw] animate__animated animate__fadeInDown">
         <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer">
           Coming Soon...
         </button>
@@ -146,16 +146,20 @@ const Comingsoon = () => {
       </div>
 
       <div className="flex">
-        <div className="fixed bottom-0 left-10 w-full py-4 px-6 bg-white hidden lg:block">
-          <h2 className="text-2xl font-extrabold text-[#094446]">50</h2>
+        <div className="fixed bottom-0 left-10 w-full py-4 px-6  hidden lg:block">
+          <h2 className="text-2xl font-extrabold text-[#094446]">
+          <AnimatedCounter from={0} to={52} />
+          </h2>
           <h3 className="">
             Total <span className="text-green-500">&bull;</span>
             <br /> Tnennt
           </h3>
         </div>
 
-        <div className="fixed bottom-0 left-72 w-full py-4 px-6 hidden lg:block bg-white">
-          <h2 className="text-2xl font-extrabold text-[#094446]">02</h2>
+        <div className="fixed bottom-0 left-72 w-full py-4 px-6 hidden lg:block">
+          <h2 className="text-2xl font-extrabold text-[#094446]">0
+          <AnimatedCounter from={0} to={2} />
+          </h2>
           <h3 className="">
             Middleman <span className="text-green-500">&bull;</span>
             <br /> Strength
@@ -177,16 +181,14 @@ const Comingsoon = () => {
 
           <div className="hidden lg:block">
             <div className="flex gap-5 fixed bottom-9 lg:right-16">
-              <img src={instagram} className="" alt="Instagram"></img>
-              <img src={linkedIn} className="" alt="LinkedIn"></img>
-              <img src={twitter} className="" alt="Twitter"></img>
+              <a href="https://www.instagram.com/tnenntstore?igsh=MXZoeDQ5NXVxdjJqYg==" target="blank"><img src={instagram} className="" alt="Instagram"></img></a>
+              <a href="https://x.com/tnenntstore?s=09" target="blank"><img src={twitter} className="" alt="Twitter"></img></a>
             </div>
           </div>
 
           <div className="flex justify-center gap-5 fixed bottom-9 lg:hidden left-1/2 transform -translate-x-1/2">
-            <img src={instagram} className="" alt="Instagram"></img>
-            <img src={linkedIn} className="" alt="LinkedIn"></img>
-            <img src={twitter} className="" alt="Twitter"></img>
+          <a href="https://www.instagram.com/tnenntstore?igsh=MXZoeDQ5NXVxdjJqYg==" target="blank"><img src={instagram} className="" alt="Instagram"></img></a>
+            <a href="https://x.com/tnenntstore?s=09" target="blank"><img src={twitter} className="" alt="Twitter"></img></a>
           </div>
         </div>
       </div>
