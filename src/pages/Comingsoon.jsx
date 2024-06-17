@@ -58,7 +58,7 @@ const Comingsoon = () => {
           right: 0,
           bottom: 0,
           zIndex: -1,
-          backgroundImage: `url(${banners})`,
+          backgroundImage: `url(${banner2})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           minHeight: "50%",
