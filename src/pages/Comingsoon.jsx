@@ -45,6 +45,7 @@ const Countdown = () => {
   );
 };
 
+
 const Comingsoon = () => {
   return (
     <>
@@ -116,12 +117,12 @@ const Comingsoon = () => {
       </div>
 
       <div className="mt-5 ml-5 lg:ml-14">
-        <h1 className="text-[30px] lg:text-[40px] lg:mt-[-20px] mt-14 leading-tight font-extrabold animate__animated animate__fadeInUp animate__slow">
+        <h1 className="text-[30px] lg:text-[40px] lg:mt-[-20px] mt-14 leading-tight font-extrabold animate__animated animate__fadeInLeft">
           YOUR EVERYDAY
           <br /> NEARBY STORE AT YOUR <br />
           FINGERTIPS
         </h1>
-        <p className="mt-3 text-[#444444]">
+        <p className="mt-3 text-[#444444] animate__animated animate__fadeInLeft">
           Clothing, Electronics, Accessories, Books & More
         </p>
       </div>
@@ -149,7 +150,7 @@ const Comingsoon = () => {
           <h2 className="text-2xl font-extrabold text-[#094446]">50</h2>
           <h3 className="">
             Total <span className="text-green-500">&bull;</span>
-            <br /> Tenant
+            <br /> Tnennt
           </h3>
         </div>
 
