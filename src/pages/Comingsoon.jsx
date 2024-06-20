@@ -39,6 +39,8 @@ const Countdown = () => {
     };
   }, []);
 
+  
+
   return (
     <p className="mt-2 ml-2 text-[#858585]">
       {daysRemaining} {daysRemaining === 1 ? "day" : "days"} remaining...
@@ -73,7 +75,7 @@ const Comingsoon = () => {
           style={{
             backgroundSize: "contain",
             position: "absolute",
-            top: 300,
+            top: 310,
             left: 0,
             right: 0,
             width: "100%",
@@ -107,17 +109,40 @@ const Comingsoon = () => {
         ></div>
       </div>
 
-      <div className="mt-7 relative cursor-pointer flex justify-end right-6">
+      <div className="flex absolute top-5 left-6 gap-7">
+        <div className="flex flex-col">
+        <h2 className="text-xl font-extrabold text-[#094446]">
+          <AnimatedCounter from={0} to={52} />
+          </h2>
+          <h3 className="text-[15px]">
+            Total <span className="text-green-500">&bull;</span>
+          </h3>
+          <h3 className="text-[15px]">Tnennt</h3>
+        </div>
+        <div className="flex flex-col">
+        <h2 className="text-xl font-extrabold text-[#094446]">
+          0<AnimatedCounter from={0} to={2} />
+          </h2>
+          <h3 className="text-[15px]">
+            Middleman <span className="text-green-500">&bull;</span>
+          </h3>
+          <h3 className="text-[15px]">Strength</h3>
+        </div>
+      </div>
+  
+      <a href="mailto:abc@gmail.com" target="_blank" className="mt-7 relative cursor-pointer flex justify-end right-6 ">
         <div className="relative animate__animated animate__fadeIn animate__slow">
-          <img src={Contact} alt="" className="w-44" />
-          <p className=" absolute top-3 left-0 right-14 text-center text-[16px] text-white">
+          <img src={Contact} alt="" className="lg:w-44 w-36" />
+          <p className=" absolute top-3 lg:left-0 left-3 right-14 text-center lg:text-[16px] text-[13px] text-white">
             Contact us
           </p>
         </div>
-      </div>
+      </a>
+      
+      
 
-      <div className="mt-5 ml-5 lg:ml-14">
-        <h1 className="text-[30px] lg:text-[40px] lg:mt-[-20px] mt-14 leading-tight font-extrabold animate__animated animate__fadeInLeft">
+      <div className="mt-7 ml-5 lg:ml-14">
+        <h1 className="text-[30px] lg:text-[40px] lg:mt-[-20px] mt-20 leading-tight font-extrabold animate__animated animate__fadeInLeft">
           YOUR EVERYDAY
           <br /> NEARBY STORE AT YOUR <br />
           FINGERTIPS
