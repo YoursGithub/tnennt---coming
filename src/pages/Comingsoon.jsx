@@ -1,13 +1,14 @@
 import React from "react";
-import instagram from "../images/instagram (4).png";
-import linkedIn from "../images/linkedin (2).png";
-import twitter from "../images/twitter.png";
-import Contact from "../images/menu icon.png";
-import banners from '../images/Group 34.webp';
-import banner2 from "../images/Frame1.svg";
-import Tnennt from "../images/TNENNT.svg";
+import { Link } from "react-router-dom";
+import instagram from "../images/allsvg/instagram (4).webp";
+import linkedIn from "../images/allsvg/linkedin (2).webp";
+import twitter from "../images/allsvg/twitter.webp";
+import Contact from "../images/allsvg/menu icon.webp";
+import banners from '../images/allsvg/Group 34.webp';
+import banner2 from "../images/allsvg/Frame1.webp";
+import Tnennt from "../images/allsvg/TNENNT.webp";
 import AnimatedCounter from "./Animatedcounter.jsx"
-import fb from '../images/facebook (2).png';
+import fb from '../images/allsvg/facebook (2).webp';
 import { useState, useEffect } from "react";
 import "animate.css";
 import "./style.css";

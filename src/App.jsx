@@ -1,17 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Comingsoon from './pages/Comingsoon'
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Comingsoon from './pages/Comingsoon';
+import Legals from './pages/Legals';
+import Privacy from './pages/Privacy';
+import Deleteacc from './pages/Deleteacc';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <Comingsoon />
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Comingsoon />} />
+        <Route path="/legals" element={<Legals />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/deleteacc" element={<Deleteacc />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
