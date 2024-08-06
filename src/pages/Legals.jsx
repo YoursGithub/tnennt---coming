@@ -45,8 +45,8 @@ function Legals() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Privacy Policy</h2>
 
         <p className="text-gray-800 mb-6">
-          Before you continue using our website, we advise you to read our
-          privacy policy [link to privacy policy] regarding our user data
+          Before you continue using our website, we advise you to read our <a href="https://tnennt.com/privacy" className="text-red-600" target="blank">
+          Privacy policy</a> regarding our user data
           collection. It will help you better understand our practices.
         </p>
 
@@ -100,7 +100,7 @@ function Legals() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Delete Account</h2>
 
         <p className="text-gray-800 mb-6">
-        For the deletion of your account, please <a href="" target="blank" className="text-red-600">click here</a>
+        For the deletion of your account, please <a href="https://tnennt.com/deleteacc" target="blank" className="text-red-600">click here</a>
         </p>
 
 
