@@ -8,7 +8,7 @@ const Deleteacc = () => {
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">
         Instructions
         </h1>
-        <p className="text-gray-600 mb-6 mt-3">Once you are totally sure that you want to delete your account, you can contact us at <span className='text-red-600'>support@tnennt.com</span> with valid reason for the deletion of your account. Once we check the email and see if the reason is valid, then we will proceed with the process of deletion.</p>
+        <p className="text-gray-600 mb-6 mt-3">Once you are totally sure that you want to delete your account, you can contact us at <span className='text-red-600'>support@tnentstore.com</span> with valid reason for the deletion of your account. Once we check the email and see if the reason is valid, then we will proceed with the process of deletion.</p>
         </div>
         </div>
     </>

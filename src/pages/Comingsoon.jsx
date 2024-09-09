@@ -6,7 +6,7 @@ import twitter from "../images/allsvg/twitter.webp";
 import Contact from "../images/allsvg/menu icon.webp";
 import banners from '../images/allsvg/Group 34.webp';
 import banner2 from "../images/allsvg/Frame1.webp";
-import Tnennt from "../images/allsvg/TNENNT.webp";
+import Tnent from "../images/allsvg/TNENNT.webp";
 import AnimatedCounter from "./Animatedcounter.jsx"
 import fb from '../images/allsvg/facebook (2).webp';
 import { useState, useEffect } from "react";
@@ -108,7 +108,7 @@ const Comingsoon = () => {
           }}
         >
           <img
-            src={Tnennt}
+            src={Tnent}
             alt="Tennent Logo"
             style={{ width: "550px", maxWidth: "200%", height: "auto" }}
           />
@@ -140,7 +140,7 @@ const Comingsoon = () => {
           <h3 className="text-[15px]">
             Total <span className="text-green-500">&bull;</span>
           </h3>
-          <h3 className="text-[15px]">Tnennt</h3>
+          <h3 className="text-[15px]">Tnent Store</h3>
         </div>
         <div className="flex flex-col">
         <h2 className="text-xl font-extrabold text-[#094446]">
@@ -200,7 +200,7 @@ const Comingsoon = () => {
           </h2>
           <h3 className="">
             Total <span className="text-green-500">&bull;</span>
-            <br /> Tnennt
+            <br /> Tnent store
           </h3>
         </div>
 

@@ -5,12 +5,12 @@ const Privacy = () => {
     <>
     <div className="bg-gray-100 min-h-screen flex justify-center items-start py-8 px-4 sm:px-6 lg:px-8">
     <div className="bg-white shadow-md rounded-lg max-w-3xl w-full p-6 sm:p-8">
-    <h1 className="text-xl sm:text-4xl font-bold mb-2">TNENNT TECHNOLOGIES PRIVATE LIMITED Privacy Policy</h1>
+    <h1 className="text-xl sm:text-4xl font-bold mb-2">TNENT TECHNOLOGIES PRIVATE LIMITED Privacy Policy</h1>
 
     <h2 className="text-2xl sm:text-3xl mt-10 font-bold mb-4">Introduction</h2>
 
     <p className="text-gray-800 mb-6">
-    TNENNT TECHNOLOGIES PRIVATE LIMITED ("TNENNT", "we", "us", or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy describes how we collect, use, disclose, and safeguard your personal information when you visit our website or use our services (collectively, the "Services").
+    TNENT TECHNOLOGIES PRIVATE LIMITED ("TNENT", "we", "us", or "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy describes how we collect, use, disclose, and safeguard your personal information when you visit our website or use our services (collectively, the "Services").
     </p>
 
 
@@ -98,7 +98,7 @@ You can access and update your information by contacting us.".
     <h2 className="text-2xl sm:text-3xl mt-10 font-bold mb-4">9. Contact Us</h2>
 
     <p className="text-gray-800 mb-6">
-    If you have any questions about this Privacy Policy, please contact us at support@tnennt.com.".
+    If you have any questions about this Privacy Policy, please contact us at support@tnentstore.com.".
     </p>
 
 
