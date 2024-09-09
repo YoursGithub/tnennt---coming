@@ -22,11 +22,11 @@ function Legals() {
               className="text-red-600"
               href="https://tnentstore.com/"
             >
-              www.TNENT.com
+              www.tnentstore.com
             </a>
           </b>{" "}
           &nbsp;website ("website", "service") operated by{" "}
-          <b>TNENT TECHNOLOGIES PRIVATE LIMITED</b> ("us", 'we", "our").
+          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> ("us", 'we", "our").
         </p>
 
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
@@ -37,7 +37,7 @@ function Legals() {
           By using this website, you certify that you have read and reviewed
           this Agreement and that you agree to comply with its terms. If you do
           not want to be bound by the terms of this Agreement, you are advised
-          to stop using the website accordingly. TNENT TECHNOLOGIES PRIVATE
+          to stop using the website accordingly. TNENNT TECHNOLOGIES PRIVATE
           LIMITED only grants use and access of this website, its products, and
           its services to those who have accepted its terms.
         </p>
@@ -57,7 +57,7 @@ function Legals() {
           this website. However if your age is below 18 (eighteen), you are
           advised to use the service under parental/guardian consent. By using
           this website, you warrant that you are at least 18 (eighteen) years of
-          age or using the service under parent/guardian consent. TNENT
+          age or using the service under parent/guardian consent. TNENNT
           TECHNOLOGIES PRIVATE LIMITED assumes no responsibility for liabilities
           related to age misrepresentation. Parents/Guardians are liable for the
           service usage of below 18 (eighteen) years old users.
@@ -69,13 +69,13 @@ function Legals() {
 
         <p className="text-gray-800 mb-6">
           You agree that all materials, products, and services provided on this
-          website are the property of TNENT TECHNOLOGIES PRIVATE LIMITED, its
+          website are the property of TNENNT TECHNOLOGIES PRIVATE LIMITED, its
           affiliates, directors, officers, employees, agents, suppliers, or
           licensors including all copyrights, trade secrets, trademarks,
           patents, and other intellectual property. You also agree that you will
-          not reproduce or redistribute the TNENT TECHNOLOGIES PRIVATE
+          not reproduce or redistribute the TNENNT TECHNOLOGIES PRIVATE
           LIMITED's intellectual property in any way, including electronic,
-          digital, or new trademark registrations. You grant TNENT TECHNOLOGIES
+          digital, or new trademark registrations. You grant TNENNT TECHNOLOGIES
           PRIVATE LIMITED a royalty-free and non-exclusive license to display,
           use, copy, transmit, and broadcast the content you upload and publish.
           For issues regarding intellectual property claims, you should contact
@@ -109,7 +109,7 @@ function Legals() {
         <p className="text-gray-800 mb-6">
           By using this website, you agree to the Indian laws, without regard to
           principles of conflict laws, will govern these terms and conditions,
-          or any dispute of any sort that might come between TNENT TECHNOLOGIES
+          or any dispute of any sort that might come between TNENNT TECHNOLOGIES
           PRIVATE LIMITED and you, or its business partners and associates.
         </p>
 
@@ -219,8 +219,8 @@ function Legals() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Indemnification</h2>
 
         <p className="text-gray-800 mb-6">
-          You agree to indemnify TNENT TECHNOLOGIES PRIVATE LIMITED and its
-          affiliates and hold TNENT TECHNOLOGIES PRIVATE LIMITED harmless
+          You agree to indemnify TNENNT TECHNOLOGIES PRIVATE LIMITED and its
+          affiliates and hold TNENNT TECHNOLOGIES PRIVATE LIMITED harmless
           against legal claims and demands that may arise from your use or
           misuse of our services. We reserve the right to select our own legal
           counsel.
@@ -231,12 +231,12 @@ function Legals() {
         </h2>
 
         <p className="text-gray-800 mb-6">
-          TNENT TECHNOLOGIES PRIVATE LIMITED is not liable for any damages that
-          may occur to you as a result of your misuse of our website. TNENT
+          TNENNT TECHNOLOGIES PRIVATE LIMITED is not liable for any damages that
+          may occur to you as a result of your misuse of our website. TNENNT
           TECHNOLOGIES PRIVATE LIMITED reserves the right to edit, modify, and
           change this Agreement at any time. We shall let our users know of
           these changes through electronic mail. This Agreement is an
-          understanding between TNENT TECHNOLOGIES PRIVATE LIMITED and the
+          understanding between TNENNT TECHNOLOGIES PRIVATE LIMITED and the
           user, and this supersedes and replaces all prior agreements regarding
           the use of this website.
         </p>
