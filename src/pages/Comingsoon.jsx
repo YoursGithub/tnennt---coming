@@ -175,12 +175,12 @@ const Comingsoon = () => {
         </p>
       </div>
 
-      <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden lg:mt-28 mt-64 ml-[18vw] animate__animated animate__fadeInDown">
+      {/* <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden lg:mt-28 mt-64 ml-[18vw] animate__animated animate__fadeInDown">
         <button className="bg-[#094446] px-7 py-2 text-white rounded-md cursor-pointer ">
           Coming Soon...
         </button>
         <Countdown />
-      </div>
+      </div> */}
 
       <div className="lg:hidden fixed top-1/2 left-1/2 transform mt-44 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center justify-center">

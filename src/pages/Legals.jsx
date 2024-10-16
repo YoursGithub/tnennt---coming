@@ -7,7 +7,7 @@ function Legals() {
         <h1 className="text-3xl sm:text-4xl font-bold mb-2">
           Terms of Service
         </h1>
-        <p className="text-gray-600 mb-6">Last updated on July 13, 2024</p>
+        <p className="text-gray-600 mb-6">Last updated on October 16, 2024</p>
 
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">
           Acceptance of terms
@@ -34,21 +34,22 @@ function Legals() {
         </h2>
 
         <p className="text-gray-800 mb-6">
-          By using this website, you certify that you have read and reviewed
-          this Agreement and that you agree to comply with its terms. If you do
-          not want to be bound by the terms of this Agreement, you are advised
-          to stop using the website accordingly. TNENNT TECHNOLOGIES PRIVATE
-          LIMITED only grants use and access of this website, its products, and
-          its services to those who have accepted its terms.
+        By using our website and availing the Services, you agree that you have read and accepted these Terms
+(including the <a href="https://tnentstore.com/privacy" className="text-red-600" target="blank">
+  Privacy policy</a>). We reserve the right to modify these Terms at any time and without
+assigning any reason. It is your responsibility to periodically review these Terms to stay informed of
+updates.
         </p>
 
-        <h2 className="text-2xl sm:text-3xl font-bold mb-4">Privacy Policy</h2>
+        {/* <h2 className="text-2xl sm:text-3xl font-bold mb-4">Privacy Policy</h2>
 
         <p className="text-gray-800 mb-6">
           Before you continue using our website, we advise you to read our <a href="https://tnentstore.com/privacy" className="text-red-600" target="blank">
           Privacy policy</a> regarding our user data
           collection. It will help you better understand our practices.
-        </p>
+        </p> */}
+
+        <p className="text-gray-800 mb-6">The use of this website or availing of our Services is subject to the following terms of use:</p>
 
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Age restriction</h2>
 
@@ -57,8 +58,7 @@ function Legals() {
           this website. However if your age is below 18 (eighteen), you are
           advised to use the service under parental/guardian consent. By using
           this website, you warrant that you are at least 18 (eighteen) years of
-          age or using the service under parent/guardian consent. TNENNT
-          TECHNOLOGIES PRIVATE LIMITED assumes no responsibility for liabilities
+          age or using the service under parent/guardian consent. <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> assumes no responsibility for liabilities
           related to age misrepresentation. Parents/Guardians are liable for the
           service usage of below 18 (eighteen) years old users.
         </p>
@@ -69,14 +69,13 @@ function Legals() {
 
         <p className="text-gray-800 mb-6">
           You agree that all materials, products, and services provided on this
-          website are the property of TNENNT TECHNOLOGIES PRIVATE LIMITED, its
+          website are the property of <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b>, its
           affiliates, directors, officers, employees, agents, suppliers, or
           licensors including all copyrights, trade secrets, trademarks,
           patents, and other intellectual property. You also agree that you will
-          not reproduce or redistribute the TNENNT TECHNOLOGIES PRIVATE
-          LIMITED's intellectual property in any way, including electronic,
-          digital, or new trademark registrations. You grant TNENNT TECHNOLOGIES
-          PRIVATE LIMITED a royalty-free and non-exclusive license to display,
+          not reproduce or redistribute the <b>TNENNT TECHNOLOGIES PRIVATE
+          LIMITED's</b> intellectual property in any way, including electronic,
+          digital, or new trademark registrations. You grant <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> a royalty-free and non-exclusive license to display,
           use, copy, transmit, and broadcast the content you upload and publish.
           For issues regarding intellectual property claims, you should contact
           the company in order to come to an agreement.
@@ -211,16 +210,15 @@ function Legals() {
 
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Refund Policy</h2>
         <p className="text-gray-800 mb-6">
-          Refund will only be provided in special cases like damaged goods,
-          wrong item received or order not received. For initiating the refund,
-          the user needs to contact our customer support.
+          For Refund policy, please <a href="https://tnentstore.com/refund&cancellation" className="text-red-600" target="blank">
+          click here</a>
         </p>
 
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Indemnification</h2>
 
         <p className="text-gray-800 mb-6">
-          You agree to indemnify TNENNT TECHNOLOGIES PRIVATE LIMITED and its
-          affiliates and hold TNENNT TECHNOLOGIES PRIVATE LIMITED harmless
+          You agree to indemnify <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> and its
+          affiliates and hold <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> harmless
           against legal claims and demands that may arise from your use or
           misuse of our services. We reserve the right to select our own legal
           counsel.
@@ -231,21 +229,29 @@ function Legals() {
         </h2>
 
         <p className="text-gray-800 mb-6">
-          TNENNT TECHNOLOGIES PRIVATE LIMITED is not liable for any damages that
-          may occur to you as a result of your misuse of our website. TNENNT
-          TECHNOLOGIES PRIVATE LIMITED reserves the right to edit, modify, and
+          <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> is not liable for any damages that
+          may occur to you as a result of your misuse of our website.<b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> reserves the right to edit, modify, and
           change this Agreement at any time. We shall let our users know of
           these changes through electronic mail. This Agreement is an
-          understanding between TNENNT TECHNOLOGIES PRIVATE LIMITED and the
+          understanding between <b>TNENNT TECHNOLOGIES PRIVATE LIMITED</b> and the
           user, and this supersedes and replaces all prior agreements regarding
           the use of this website.
         </p>
 
+        {/* <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+          Contact us
+        </h2>
+
+        <p className="text-gray-800 mb-6">
+          Please Contact us at <a href="https://tnentstore.com/contactus" className="text-red-600" target="blank">this link</a>
+        </p> */}
+
         <div className="mt-8 border-t pt-6">
-          <p className="text-sm text-gray-600">
-            For any questions or concerns regarding these Terms of Service, please contact us at legal@tnentstore.com.
-          </p>
-        </div>
+  <p className="text-sm text-gray-600">
+    For any questions or concerns regarding these Terms of Service, please contact us at
+    <a href="mailto:legal@tnentstore.com" className="font-bold"> legal@tnentstore.com</a>.
+  </p>
+</div>
       </div>
     </div>
   );
